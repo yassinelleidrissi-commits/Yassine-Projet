@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nom": "ishak cross",
+    "email": "crossishak@mail.com",
+    "telephone": "0633445566",
+    "date_inscription": "2025-07-05"
+  },
+  {
+    "id": 2,
+    "nom": "Sara Benali",
+    "email": "benalisara@mail.com",
+    "telephone": "0611223399",
+    "date_inscription": "2025-03-11"
+  }
+]

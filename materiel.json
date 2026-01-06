@@ -1,0 +1,82 @@
+[
+  {
+    "no": 1,
+    "nom": "Tapis de course électrique",
+    "qte": 8,
+    "categorie": "Cardio",
+    "etat": "Bon",
+    "date_achat": "2024-01-15"
+  },
+  {
+    "no": 2,
+    "nom": "Vélo elliptique professionnel",
+    "qte": 6,
+    "categorie": "Cardio",
+    "etat": "Excellent",
+    "date_achat": "2024-02-20"
+  },
+  {
+    "no": 3,
+    "nom": "Machine à poulies multifonction",
+    "qte": 4,
+    "categorie": "Musculation",
+    "etat": "Bon",
+    "date_achat": "2023-11-10"
+  },
+  {
+    "no": 4,
+    "nom": "Haltères ajustables (5-25kg)",
+    "qte": 15,
+    "categorie": "Libre",
+    "etat": "Bon",
+    "date_achat": "2024-03-05"
+  },
+  {
+    "no": 5,
+    "nom": "Barres olympiques",
+    "qte": 10,
+    "categorie": "Libre",
+    "etat": "Bon",
+    "date_achat": "2023-12-18"
+  },
+  {
+    "no": 6,
+    "nom": "Banc de musculation inclinable",
+    "qte": 7,
+    "categorie": "Musculation",
+    "etat": "Excellent",
+    "date_achat": "2024-01-30"
+  },
+  {
+    "no": 7,
+    "nom": "Rameur mécanique",
+    "qte": 5,
+    "categorie": "Cardio",
+    "etat": "Bon",
+    "date_achat": "2024-02-15"
+  },
+  {
+    "no": 8,
+    "nom": "Ballon de stabilité (65cm)",
+    "qte": 12,
+    "categorie": "Fonctionnel",
+    "etat": "Neuf",
+    "date_achat": "2024-04-10"
+  },
+  {
+    "no": 9,
+    "nom": "Kettlebell (4-32kg)",
+    "qte": 20,
+    "categorie": "Libre",
+    "etat": "Excellent",
+    "date_achat": "2024-03-22"
+  },
+  {
+    "no": 10,
+    "nom": "Tapis de yoga antidérapants",
+    "qte": 25,
+    "categorie": "Accessoires",
+    "etat": "Neuf",
+    "date_achat": "2024-05-01"
+  }
+]

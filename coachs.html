@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestion des Coachs</title>
+  <link rel="stylesheet" href="coachs.css">
+</head>
+<body>
+    <header>
+  <h1>GYM Management Dashboard</h1>
+  <button onclick="logout()">Déconnexion</button>
+</header>
+
+<h2>Gestion des Coachs</h2>
+
+<form id="coachForm">
+  <input type="hidden" id="id">
+  <input type="text" id="nom" placeholder="Nom du coach" required>
+  <input type="text" id="specialite" placeholder="Spécialité" required>
+  <input type="text" id="telephone" placeholder="Téléphone" required>
+  <button type="submit">Enregistrer</button>
+</form>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nom</th>
+      <th>Spécialité</th>
+      <th>Téléphone</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody id="coachTable"></tbody>
+</table>
+
+<script src="coachs.js"></script>
+</body>
+</html>

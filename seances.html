@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestion des Séances</title>
+  <link rel="stylesheet" href="seances.css">
+</head>
+<body>
+    <header>
+  <h1>GYM Management Dashboard</h1>
+  <button onclick="logout()">Déconnexion</button>
+</header>
+
+<h2>Gestion des Séances</h2>
+
+<form id="seanceForm">
+  <input type="hidden" id="id">
+
+  <input type="text" id="nom" placeholder="Nom de la séance" required>
+  <input type="date" id="date" required>
+  <input type="time" id="heure" required>
+
+  <select id="coach_id" required>
+    <option value="">-- Sélectionner un coach --</option>
+  </select>
+
+  <button type="submit">Enregistrer</button>
+</form>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nom</th>
+      <th>Date</th>
+      <th>Heure</th>
+      <th>Coach</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody id="seanceTable"></tbody>
+</table>
+
+<script src="seances.js"></script>
+</body>
+</html>

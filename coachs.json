@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "nom": "Karim Coach",
+    "specialite": "Musculation",
+    "telephone": "0622222222"
+  },
+  {
+    "id": 2,
+    "nom": "hanane Coach",
+    "specialite": "Yoga",
+    "telephone": "0633333333"
+  }
+]

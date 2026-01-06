@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "membre_id": 1,
+    "type": "Mensuel",
+    "prix": 300,
+    "duree": 1
+  },
+  {
+    "id": 2,
+    "membre_id": 2,
+    "type": "Annuel",
+    "prix": 3000,
+    "duree": 12
+  }
+]

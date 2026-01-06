@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nom": "Séance Matinale",
+    "date": "2026-01-10",
+    "heure": "08:00",
+    "coach_id": 1
+  },
+  {
+    "id": 2,
+    "nom": "Séance Yoga",
+    "date": "2026-01-12",
+    "heure": "18:00",
+    "coach_id": 2
+  }
+]

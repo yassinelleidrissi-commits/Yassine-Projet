@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - GYM</title>
+  <link rel="stylesheet" href="dashboard.css">
+  
+</head>
+<body>
+
+<header>
+  <h1>GYM Management Dashboard</h1>
+  <button onclick="logout()">Déconnexion</button>
+</header>
+
+<nav>
+  <a href="membres.html">Membres</a>
+  <a href="coachs.html">Coachs</a>  
+  <a href="abonnements.html">Abonnements</a>
+  <a href="seances.html">Séances</a>
+</nav>
+
+<section class="stats">
+  <div class="card">
+    <h3>Membres</h3>
+    <p id="totalMembres">0</p>
+  </div>
+  <div class="card">
+    <h3>Coachs</h3>
+    <p id="totalCoachs">0</p>
+  </div>
+  <div class="card">
+    <h3>Abonnements</h3>
+    <p id="totalAbonnements">0</p>
+  </div>
+  <div class="card">
+    <h3>Séances</h3>
+    <p id="totalSeances">0</p>
+  </div>
+</section>
+
+<section class="charts">
+  <canvas id="chartMembres"></canvas>
+  <canvas id="chartAbonnements"></canvas>
+</section>
+
+<script src="chart.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="dashboard.js"></script>
+</body>
+</html>
